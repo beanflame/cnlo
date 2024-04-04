@@ -22,6 +22,7 @@ public:
         object
     };
 
+    // cnlo["kay"] = "Hello";
     Cnlo();
     Cnlo(pType type);
     Cnlo(bool value);
@@ -30,12 +31,26 @@ public:
     Cnlo(const char * value);
     Cnlo(const std::string & value);
 
+    // int x = cnlo["kay"];
+    operator bool();
+    operator int();
+    operator double();
+    operator std::string();
+
+    // cnlo["obj-1"]["kay"]
+    Cnlo & operator [] (int index);
+    Cnlo & operator [] (const char * key);
+    Cnlo & operator [] (const std::string & key);
+
+
+
+    
+
 private:
-    std::list<Cnlo> * mArray;
+    pType mType;    // ok
+    mValue mValue;    // ok
+    std::list<Cnlo> * mArray;    // ok
     std::map<std::string, Cnlo> * mObject;  // ok
-    mValue mValue;
-    pType mType;  // ok
-    // xpValue m_value;
 }
 
 
