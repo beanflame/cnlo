@@ -31,6 +31,13 @@ public:
     Cnlo(const char * value);
     Cnlo(const std::string & value);
 
+    // cnlo["kay"] = "Hello";
+    // Cnlo & Cnlo::operator = (bool value);
+    // Cnlo & Cnlo::operator = (int value);
+    // Cnlo & Cnlo::operator = (double value);
+    // Cnlo & Cnlo::operator = (const char * value);
+    // Cnlo & Cnlo::operator = (const std::string & value);
+
     // int x = cnlo["kay"];
     operator bool();
     operator int();
