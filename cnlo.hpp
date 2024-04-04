@@ -5,7 +5,7 @@ union Value {
     bool mBool;
     int mInt;
     double mDouble;
-    std::string * mString;
+    std::string * mString;     // * 指针省内存
 };  
 
 class Cnlo
@@ -38,7 +38,7 @@ public:
     // Cnlo & Cnlo::operator = (const char * value);
     // Cnlo & Cnlo::operator = (const std::string & value);
 
-    // int x = cnlo["kay"];
+    // std::string x = cnlo["kay"];
     operator bool();
     operator int();
     operator double();
@@ -56,6 +56,7 @@ public:
 private:
     pType mType;    // ok
     mValue mValue;    // ok
+    // * 指针省内存
     std::list<Cnlo> * mArray;    // ok
     std::map<std::string, Cnlo> * mObject;  // ok
 }
