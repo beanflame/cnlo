@@ -72,7 +72,7 @@ jobs:
           # filter-author: renovate\[bot\]
           output: dist/CONTRIBUTORS.svg
           hideName: 'true'
-          avatarSize: 140
+          avatarSize: 80
 
       # - name: Generate Contributors Images 22
       #  id: contributor_name
