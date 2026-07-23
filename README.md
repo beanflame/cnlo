@@ -1,4 +1,3 @@
-
 <hr>
 
 github-action-contributors
@@ -25,9 +24,9 @@ Write contributors(**`htmlTable`**) to markdown Example:
 
 <!--GAMFC_TABEL--><table><tr>
   <td align="center">
-    <a href="https://github.com/beanflame" title="BeanFlame (豆焰)">
-      <img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="100;" alt="BeanFlame (豆焰)"/>
-    <br /><sub><b>BeanFlame (豆焰)</b></sub>
+    <a href="https://github.com/jaywcjlove" title="小弟调调">
+      <img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="100;" alt="小弟调调"/>
+    <br /><sub><b>小弟调调</b></sub>
     </a>
   </td>
 </tr></table><!--GAMFC_TABEL-END-->
@@ -53,16 +52,16 @@ Collaborators Users:
 
 <!--GAMFC_TABEL_COLLABORATORS--><table><tr>
   <td align="center">
-    <a href="https://github.com/beanflame" title="BeanFlame (豆焰)">
-      <img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="100;" alt="BeanFlame (豆焰)"/>
-    <br /><sub><b>BeanFlame (豆焰)</b></sub>
+    <a href="https://github.com/jaywcjlove" title="小弟调调">
+      <img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="100;" alt="小弟调调"/>
+    <br /><sub><b>小弟调调</b></sub>
     </a>
   </td>
 </tr></table><!--GAMFC_TABEL_COLLABORATORS-END-->
 
 Write contributors(**`htmlList`**) to markdown Example:
 
-<!--GAMFC--><a href="https://github.com/beanflame" title="BeanFlame (豆焰)"><img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="36;" alt="BeanFlame (豆焰)"/></a><!--GAMFC-END-->
+<!--GAMFC--><a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="小弟调调"/></a><!--GAMFC-END-->
 
 ## Usage
 
@@ -128,14 +127,14 @@ Use in `README.md` markdown
 
 As always, thanks to our amazing contributors!
 
-<!--GAMFC--><a href="https://github.com/beanflame" title="BeanFlame (豆焰)"><img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="36;" alt="BeanFlame (豆焰)"/></a><!--GAMFC-END-->
+<!--GAMFC--><a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="小弟调调"/></a><!--GAMFC-END-->
 
 Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).
 ```
 
 Write contributors(**`htmlList`**) to markdown Example:
 
-<!--GAMFC--><a href="https://github.com/beanflame" title="BeanFlame (豆焰)"><img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="36;" alt="BeanFlame (豆焰)"/></a><!--GAMFC-END-->
+<!--GAMFC--><a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="小弟调调"/></a><!--GAMFC-END-->
 
 ### Write contributors(**`htmlTable`**) to markdown
 
@@ -173,8 +172,8 @@ Write contributors(**`htmlTable`**) to markdown Example:
 
 <!--GAMFC_TABEL_HIDE_NAME--><table><tr>
   <td align="center">
-    <a href="https://github.com/beanflame" title="BeanFlame (豆焰)">
-      <img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="100;" alt="BeanFlame (豆焰)"/>
+    <a href="https://github.com/jaywcjlove" title="小弟调调">
+      <img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="100;" alt="小弟调调"/>
     </a>
   </td>
 </tr></table><!--GAMFC_TABEL_HIDE_NAME-END-->
@@ -259,7 +258,14 @@ Bot Users:
 </a
 ```
 
+## Quick Start
 
+```shell
+$ npm install
+
+$ npm run watch # Listen compile .ts files.
+$ npm run build # compile .ts files.
+```
 
 ## Related
 
@@ -273,7 +279,7 @@ Bot Users:
 
 As always, thanks to our amazing contributors!
 
-<!--GAMFC--><a href="https://github.com/beanflame" title="BeanFlame (豆焰)"><img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="36;" alt="BeanFlame (豆焰)"/></a><!--GAMFC-END-->
+<!--GAMFC--><a href="https://github.com/jaywcjlove" title="小弟调调"><img src="https://avatars.githubusercontent.com/u/1680273?v=4" width="36;" alt="小弟调调"/></a><!--GAMFC-END-->
 
 Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).
 
