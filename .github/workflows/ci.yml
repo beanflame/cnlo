@@ -71,7 +71,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # filter-author: renovate\[bot\]
           output: dist/CONTRIBUTORS.svg
-          hideName: 'true'
           avatarSize: 80
 
       # - name: Generate Contributors Images 22
