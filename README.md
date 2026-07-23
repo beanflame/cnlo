@@ -47,20 +47,14 @@ Bot Users:
 
 Collaborators Users:
 
-<!--GAMFC_TABEL_COLLABORATORS-->
-
-
-<table><tr>
+<!--GAMFC_TABEL_COLLABORATORS--><table><tr>
   <td align="center">
     <a href="https://github.com/beanflame" title="BeanFlame">
       <img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="100;" alt="BeanFlame"/>
     <br /><sub><b>BeanFlame</b></sub>
     </a>
   </td>
-</tr></table>
-
-
-<!--GAMFC_TABEL_COLLABORATORS-END-->
+</tr></table><!--GAMFC_TABEL_COLLABORATORS-END-->
 
 Write contributors(**`htmlList`**) to markdown Example:
 
