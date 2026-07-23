@@ -185,9 +185,7 @@ Made with [contributors](https://github.com/jaywcjlove/github-action-contributor
 
 Write contributors(**`htmlTable`**) to markdown Example:
 
-<!--GAMFC_TABEL_HIDE_NAME-->
-
-<table><tr>
+<!--GAMFC_TABEL_HIDE_NAME--><table><tr>
   <td align="center">
     <a href="https://github.com/beanflame" title="BeanFlame">
       <img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="100;" alt="BeanFlame"/>
