@@ -1,7 +1,9 @@
 #- name: Github Contributors Icon Generator
 #  uses: jaywcjlove/github-action-contributors@v2.1.0
 
-
+permissions:
+  contents: write
+  pages: write
 
 
 
