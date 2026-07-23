@@ -36,18 +36,14 @@ Write contributors(**`htmlTable`**) to markdown Example:
 
 Bot Users:
 
-<!--GAMFC_TABEL_BOTS-->
-
-<table><tr>
+<!--GAMFC_TABEL_BOTS--><table><tr>
   <td align="center">
     <a href="https://github.com/github-actions[bot]" title="github-actions[bot]">
       <img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100;" alt="github-actions[bot]"/>
     <br /><sub><b>github-actions[bot]</b></sub>
     </a>
   </td>
-</tr></table>
-
-<!--GAMFC_TABEL_BOTS-END-->
+</tr></table><!--GAMFC_TABEL_BOTS-END-->
 
 Collaborators Users:
 
