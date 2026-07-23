@@ -60,7 +60,7 @@ jobs:
       - run: npm install idoc@1 -g
       - run: idoc
 
-      - name: Generate Contributors Images
+      - name: Generate Contributors Images 11
         id: contributors
         # uses: jaywcjlove/github-action-contributors@main
         uses: jaywcjlove/github-action-contributors@v2.1.0
@@ -72,7 +72,7 @@ jobs:
           output: dist/CONTRIBUTORS.svg
           avatarSize: 36
 
-      - name: Generate Contributors Images
+      - name: Generate Contributors Images 22
         id: contributor_name
         uses: ./
         with:
@@ -80,14 +80,14 @@ jobs:
           hideName: 'true'
           avatarSize: 100
 
-      - name: Generate Contributors Images
+      - name: Generate Contributors Images 33
         id: contributor_table
         uses: ./
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           avatarSize: 100
 
-      - name: Modify GAMFC README.md
+      - name: Modify GAMFC README.md 44
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -176,7 +176,7 @@ jobs:
 
             ```yml
             - run: mkdir -p build
-            - name: Generate Contributors Images
+            - name: Generate Contributors Images 2
               uses: jaywcjlove/github-action-contributors@main
               with:
                 token: xxxxxxx
