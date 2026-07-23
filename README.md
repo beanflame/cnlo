@@ -301,7 +301,7 @@ Made with [contrib.rocks](https://contrib.rocks).
 <img src="https://contributorssvg1.vercel.app/benflame/cnlo/contributors.svg?max=44&pad=0&hide_border=true&bot=true" />
 
 
-![Vite contributors](https://contributorssvg1.vercel.app/benflame/cnlo/contributors.svg?max=44&pad=0&hide_border=true&bot=true)
+![Vite contributors](https://contributorssvg1.vercel.app/benflame/cnlo/contributors.svg?max=44&pad=0&hide_border=true&bot=true&maxage=1000)
 
 
 
