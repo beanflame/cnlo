@@ -25,9 +25,9 @@ Write contributors(**`htmlTable`**) to markdown Example:
 
 <!--GAMFC_TABEL--><table><tr>
   <td align="center">
-    <a href="https://github.com/beanflame" title="BeanFlame (豆焰)">
-      <img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="100;" alt="BeanFlame (豆焰)"/>
-    <br /><sub><b>BeanFlame (豆焰)</b></sub>
+    <a href="https://github.com/beanflame" title="BeanFlame">
+      <img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="100;" alt="BeanFlame"/>
+    <br /><sub><b>BeanFlame</b></sub>
     </a>
   </td>
   <td align="center">
