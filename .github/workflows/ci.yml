@@ -1,9 +1,11 @@
 #- name: Github Contributors Icon Generator
 #  uses: jaywcjlove/github-action-contributors@v2.1.0
 
-#permissions:
-#  contents: write
-#  pages: write
+permissions:
+  contents: write
+  pages: write
+
+
 
 
 name: CI
@@ -17,13 +19,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      #- uses: actions/setup-node@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: 24
           registry-url: 'https://registry.npmjs.org'
 
+      # - run: npm install
+      # - run: npm run build
       - run: mkdir -p build
-
 
       - name: Converts Markdown to HTML
         uses: jaywcjlove/markdown-to-html-cli@main
@@ -56,8 +59,8 @@ jobs:
           
           EOF
   
-      #- run: npm install idoc@1 -g
-      #- run: idoc
+      - run: npm install idoc@1 -g
+      - run: idoc
 
       - name: Generate Contributors Images 11
         id: contributors
@@ -95,7 +98,6 @@ jobs:
           closeDelimiter: '<!--GAMFC-END-->'
           body: |
             ${{steps.contributors.outputs.htmlList}}
-
       - name: Modify GAMFC_TABEL_HIDE_NAME README.md
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
@@ -104,7 +106,6 @@ jobs:
           closeDelimiter: '<!--GAMFC_TABEL_HIDE_NAME-END-->'
           body: |
             ${{steps.contributor_name.outputs.htmlTable}}
-
       - name: Modify GAMFC_TABEL README.md
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
@@ -113,7 +114,6 @@ jobs:
           closeDelimiter: '<!--GAMFC_TABEL-END-->'
           body: |
             ${{steps.contributor_table.outputs.htmlTable}}
-
       - name: Modify GAMFC_TABEL_BOTS README.md
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
@@ -122,7 +122,6 @@ jobs:
           closeDelimiter: '<!--GAMFC_TABEL_BOTS-END-->'
           body: |
             ${{steps.contributor_table.outputs.htmlTableBots}}
-
       - name: Modify GAMFC_TABEL_COLLABORATORS README.md
         uses: jaywcjlove/github-action-modify-file-content@main
         with:
@@ -131,7 +130,6 @@ jobs:
           closeDelimiter: '<!--GAMFC_TABEL_COLLABORATORS-END-->'
           body: |
             ${{steps.contributor_table.outputs.htmlCollaboratorsTable}}
-
       
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
@@ -141,7 +139,3 @@ jobs:
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           publish_dir: ./dist
-
-
-
-    
