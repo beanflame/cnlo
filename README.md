@@ -287,6 +287,13 @@ As always, thanks to our amazing contributors!
 
 Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).
 
+<a href="https://github.com/beanflame/cnlo/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=beanflame/cnlo" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
+
 ## hello
  你好 By woodzn
 
