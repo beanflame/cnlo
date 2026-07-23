@@ -148,12 +148,8 @@ Made with [contributors](https://github.com/jaywcjlove/github-action-contributor
 
 Write contributors(**`htmlList`**) to markdown Example:
 
-<!--GAMFC-->
-
-<a href="https://github.com/beanflame" title="BeanFlame"><img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="80;" alt="BeanFlame"/></a>
-<a href="https://github.com/woodzn" title="woodzn"><img src="https://avatars.githubusercontent.com/u/87903960?v=4" width="80;" alt="woodzn"/></a>
-
-<!--GAMFC-END-->
+<!--GAMFC--><a href="https://github.com/beanflame" title="BeanFlame"><img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="80;" alt="BeanFlame"/></a>
+<a href="https://github.com/woodzn" title="woodzn"><img src="https://avatars.githubusercontent.com/u/87903960?v=4" width="80;" alt="woodzn"/></a><!--GAMFC-END-->
 
 ### Write contributors(**`htmlTable`**) to markdown
 
@@ -308,12 +304,8 @@ $ npm run build # compile .ts files.
 
 As always, thanks to our amazing contributors!
 
-<!--GAMFC-->
-
-<a href="https://github.com/beanflame" title="BeanFlame"><img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="80;" alt="BeanFlame"/></a>
-<a href="https://github.com/woodzn" title="woodzn"><img src="https://avatars.githubusercontent.com/u/87903960?v=4" width="80;" alt="woodzn"/></a>
-
-<!--GAMFC-END-->
+<!--GAMFC--><a href="https://github.com/beanflame" title="BeanFlame"><img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="80;" alt="BeanFlame"/></a>
+<a href="https://github.com/woodzn" title="woodzn"><img src="https://avatars.githubusercontent.com/u/87903960?v=4" width="80;" alt="woodzn"/></a><!--GAMFC-END-->
 
 Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).
 
