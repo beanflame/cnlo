@@ -56,8 +56,8 @@ jobs:
           
           EOF
   
-      - run: npm install idoc@1 -g
-      - run: idoc
+      #- run: npm install idoc@1 -g
+      #- run: idoc
 
       - name: Generate Contributors Images 11
         id: contributors
