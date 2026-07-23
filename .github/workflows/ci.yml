@@ -74,13 +74,13 @@ jobs:
           output: dist/CONTRIBUTORS.svg
           avatarSize: 36
 
-      - name: Generate Contributors Images 22
-        id: contributor_name
-        uses: ./
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          hideName: 'true'
-          avatarSize: 100
+      # - name: Generate Contributors Images 22
+      #  id: contributor_name
+      #  uses: ./
+      #  with:
+      #    token: ${{ secrets.GITHUB_TOKEN }}
+      #    hideName: 'true'
+      #    avatarSize: 100
 
       - name: Generate Contributors Images 33
         id: contributor_table
