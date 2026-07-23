@@ -24,8 +24,7 @@ jobs:
           node-version: 24
           registry-url: 'https://registry.npmjs.org'
 
-      # - run: npm install
-      # - run: npm run build
+  
       - run: mkdir -p build
 
       - name: Converts Markdown to HTML
@@ -72,7 +71,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # filter-author: renovate\[bot\]
           output: dist/CONTRIBUTORS.svg
-          avatarSize: 100
+          hideName: 'true'
+          avatarSize: 140
 
       # - name: Generate Contributors Images 22
       #  id: contributor_name
