@@ -305,9 +305,9 @@ Made with [contrib.rocks](https://contrib.rocks).
 
 
 
-![Vite contributors99](https://contributorssvg1.vercel.app/vitejs/vite/contributors.svg?max=2000&maxage=1000&pad=4&hide_border=true)
+![Vite contributors99](https://contributorssvg1.vercel.app/vitejs/vite/contributors.svg?max=400&maxage=1000&pad=0&hide_border=true)
 
-
+![Vite contributors99](https://contributorssvg1.vercel.app/ViudiraTech/Uinxed-Kernel/contributors.svg?max=400&maxage=1000&pad=0&hide_border=true)
 
 
 
