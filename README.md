@@ -23,7 +23,9 @@ As always, thanks to our amazing contributors!
 
 Write contributors(**`htmlTable`**) to markdown Example:
 
-<!--GAMFC_TABEL--><table><tr>
+<!--GAMFC_TABEL-->
+
+<table><tr>
   <td align="center">
     <a href="https://github.com/beanflame" title="BeanFlame">
       <img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="100;" alt="BeanFlame"/>
@@ -36,29 +38,42 @@ Write contributors(**`htmlTable`**) to markdown Example:
     <br /><sub><b>woodzn</b></sub>
     </a>
   </td>
-</tr></table><!--GAMFC_TABEL-END-->
+</tr></table>
+
+
+<!--GAMFC_TABEL-END-->
 
 Bot Users:
 
-<!--GAMFC_TABEL_BOTS--><table><tr>
+<!--GAMFC_TABEL_BOTS-->
+
+<table><tr>
   <td align="center">
     <a href="https://github.com/github-actions[bot]" title="github-actions[bot]">
       <img src="https://avatars.githubusercontent.com/in/15368?v=4" width="100;" alt="github-actions[bot]"/>
     <br /><sub><b>github-actions[bot]</b></sub>
     </a>
   </td>
-</tr></table><!--GAMFC_TABEL_BOTS-END-->
+</tr></table>
+
+<!--GAMFC_TABEL_BOTS-END-->
 
 Collaborators Users:
 
-<!--GAMFC_TABEL_COLLABORATORS--><table><tr>
+<!--GAMFC_TABEL_COLLABORATORS-->
+
+
+<table><tr>
   <td align="center">
     <a href="https://github.com/beanflame" title="BeanFlame">
       <img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="100;" alt="BeanFlame"/>
     <br /><sub><b>BeanFlame</b></sub>
     </a>
   </td>
-</tr></table><!--GAMFC_TABEL_COLLABORATORS-END-->
+</tr></table>
+
+
+<!--GAMFC_TABEL_COLLABORATORS-END-->
 
 Write contributors(**`htmlList`**) to markdown Example:
 
@@ -137,8 +152,12 @@ Made with [contributors](https://github.com/jaywcjlove/github-action-contributor
 
 Write contributors(**`htmlList`**) to markdown Example:
 
-<!--GAMFC--><a href="https://github.com/beanflame" title="BeanFlame"><img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="80;" alt="BeanFlame"/></a>
-<a href="https://github.com/woodzn" title="woodzn"><img src="https://avatars.githubusercontent.com/u/87903960?v=4" width="80;" alt="woodzn"/></a><!--GAMFC-END-->
+<!--GAMFC-->
+
+<a href="https://github.com/beanflame" title="BeanFlame"><img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="80;" alt="BeanFlame"/></a>
+<a href="https://github.com/woodzn" title="woodzn"><img src="https://avatars.githubusercontent.com/u/87903960?v=4" width="80;" alt="woodzn"/></a>
+
+<!--GAMFC-END-->
 
 ### Write contributors(**`htmlTable`**) to markdown
 
@@ -174,7 +193,9 @@ Made with [contributors](https://github.com/jaywcjlove/github-action-contributor
 
 Write contributors(**`htmlTable`**) to markdown Example:
 
-<!--GAMFC_TABEL_HIDE_NAME--><table><tr>
+<!--GAMFC_TABEL_HIDE_NAME-->
+
+<table><tr>
   <td align="center">
     <a href="https://github.com/beanflame" title="BeanFlame">
       <img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="100;" alt="BeanFlame"/>
@@ -200,7 +221,10 @@ Bot Users:
       <img src="https://avatars.githubusercontent.com/in/2740?v=4" width="100;" alt="renovate[bot]"/>
     </a>
   </td>
-</tr></table><!--GAMFC_TABEL_HIDE_NAME_BOTS-END-->
+</tr></table>
+
+
+<!--GAMFC_TABEL_HIDE_NAME_BOTS-END-->
 
 ## Inputs
 
@@ -288,8 +312,12 @@ $ npm run build # compile .ts files.
 
 As always, thanks to our amazing contributors!
 
-<!--GAMFC--><a href="https://github.com/beanflame" title="BeanFlame"><img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="80;" alt="BeanFlame"/></a>
-<a href="https://github.com/woodzn" title="woodzn"><img src="https://avatars.githubusercontent.com/u/87903960?v=4" width="80;" alt="woodzn"/></a><!--GAMFC-END-->
+<!--GAMFC-->
+
+<a href="https://github.com/beanflame" title="BeanFlame"><img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="80;" alt="BeanFlame"/></a>
+<a href="https://github.com/woodzn" title="woodzn"><img src="https://avatars.githubusercontent.com/u/87903960?v=4" width="80;" alt="woodzn"/></a>
+
+<!--GAMFC-END-->
 
 Made with [contributors](https://github.com/jaywcjlove/github-action-contributors).
 
