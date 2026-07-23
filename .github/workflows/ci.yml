@@ -133,11 +133,11 @@ jobs:
           body: |
             ${{steps.contributor_table.outputs.htmlCollaboratorsTable}}
 
-      - name: Create Tag
-        id: create_tag
-        uses: jaywcjlove/create-tag-action@main
-        with:
-          package-path: ./package.json
+      #- name: Create Tag
+      #  id: create_tag
+      #  uses: jaywcjlove/create-tag-action@main
+      #  with:
+      #    package-path: ./package.json
 
       - name: get tag version
         id: tag_version
