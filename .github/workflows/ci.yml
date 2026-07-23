@@ -82,12 +82,12 @@ jobs:
       #    hideName: 'true'
       #    avatarSize: 100
 
-      - name: Generate Contributors Images 33
-        id: contributor_table
-        uses: ./
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          avatarSize: 100
+      #- name: Generate Contributors Images 33
+      #  id: contributor_table
+      #  uses: ./
+      #  with:
+      #    token: ${{ secrets.GITHUB_TOKEN }}
+      #    avatarSize: 100
 
       - name: Modify GAMFC README.md 44
         uses: jaywcjlove/github-action-modify-file-content@main
