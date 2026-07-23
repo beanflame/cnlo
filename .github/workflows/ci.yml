@@ -1,11 +1,9 @@
 #- name: Github Contributors Icon Generator
 #  uses: jaywcjlove/github-action-contributors@v2.1.0
 
-permissions:
-  contents: write
-  pages: write
-
-
+#permissions:
+#  contents: write
+#  pages: write
 
 
 name: CI
@@ -19,20 +17,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/setup-node@v6
+      #- uses: actions/setup-node@v6
         with:
           node-version: 24
           registry-url: 'https://registry.npmjs.org'
 
-      # - run: npm install
-      # - run: npm run build
       - run: mkdir -p build
 
-      # - name: Converts Markdown to HTML
-      #   uses: jaywcjlove/markdown-to-html-cli@main
-      #   with:
-      #     output: build/index.html
-      #     favicon: data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏞️</text></svg>
+
+      - name: Converts Markdown to HTML
+        uses: jaywcjlove/markdown-to-html-cli@main
+        with:
+           output: build/index.html
+           favicon: data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏞️</text></svg>
 
       - name: Create idoc config
         run: |
