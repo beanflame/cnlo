@@ -176,8 +176,8 @@ Write contributors(**`htmlTable`**) to markdown Example:
 
 <!--GAMFC_TABEL_HIDE_NAME--><table><tr>
   <td align="center">
-    <a href="https://github.com/beanflame" title="BeanFlame (豆焰)">
-      <img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="100;" alt="BeanFlame (豆焰)"/>
+    <a href="https://github.com/beanflame" title="BeanFlame">
+      <img src="https://avatars.githubusercontent.com/u/68175497?v=4" width="100;" alt="BeanFlame"/>
     </a>
   </td>
   <td align="center">
