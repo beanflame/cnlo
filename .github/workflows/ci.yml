@@ -72,21 +72,27 @@ jobs:
           # filter-author: renovate\[bot\]
           output: dist/CONTRIBUTORS.svg
           avatarSize: 80
+          
 
-      # - name: Generate Contributors Images 22
-      #  id: contributor_name
-      #  uses: ./
-      #  with:
-      #    token: ${{ secrets.GITHUB_TOKEN }}
-      #    hideName: 'true'
-      #    avatarSize: 100
+      - name: Generate Contributors Images 22
+        id: contributor_name
+        uses: ./
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          hideName: 'true'
+          avatarSize: 100
 
-      #- name: Generate Contributors Images 33
-      #  id: contributor_table
-      #  uses: ./
-      #  with:
-      #    token: ${{ secrets.GITHUB_TOKEN }}
-      #    avatarSize: 100
+          
+
+      - name: Generate Contributors Images 33
+        id: contributor_table
+        uses: ./
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          avatarSize: 100
+
+
+          
 
       - name: Modify GAMFC README.md 44
         uses: jaywcjlove/github-action-modify-file-content@main
