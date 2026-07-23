@@ -1,3 +1,11 @@
+#- name: Github Contributors Icon Generator
+#  uses: jaywcjlove/github-action-contributors@v2.1.0
+
+
+
+
+
+
 name: CI
 on:
   push:
@@ -54,7 +62,8 @@ jobs:
 
       - name: Generate Contributors Images
         id: contributors
-        uses: jaywcjlove/github-action-contributors@main
+        # uses: jaywcjlove/github-action-contributors@main
+        uses: jaywcjlove/github-action-contributors@v2.1.0
         
         # uses: ./
         with:
