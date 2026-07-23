@@ -298,10 +298,10 @@ Made with [contributors](https://github.com/jaywcjlove/github-action-contributor
 
 Made with [contrib.rocks](https://contrib.rocks).
 
-<img src="https://contributorssvg1.vercel.app/benflame/cnlo/contributors.svg?max=44&pad=0&hide_border=true&bot=true" />
+<img src="https://contributorssvg1.vercel.app/beanflame/cnlo/contributors.svg?pad=0&bot=true&hide_border=true&maxage=1000" />
 
 
-![Vite contributors](https://contributors.aika.dev/beanflame/cnlo/contributors.svg?pad=0&bot=true&hide_border=true&maxage=1000)
+![Vite contributors](https://contributorssvg1.vercel.app/beanflame/cnlo/contributors.svg?pad=0&bot=true&hide_border=true&maxage=1000)
 
 
 
